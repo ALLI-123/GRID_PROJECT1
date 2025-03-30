@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.wrapper {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.grid-con {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+
+.grid-con .grid-item {
+  padding: 5px;
+  border: 3px solid red;
+  border-radius: 5px;
+}
+
+.grid-con .grid-item .title {
+  display: flex;
+  width: 300px;
+  padding: 10px;
+  align-items: center;
+}
+
+.grid-con .grid-item .title .title-con {
+  margin: 5px;
+}
+
+.grid-con .grid-item h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.grid-con .grid-item small {
+  font-weight: 400;
+}
+
+.grid-con .item1 {
+  background-color: #7541c8;
+  color: #fff;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.grid-con .item2 {
+  background-color: #19212e;
+  color: #fff;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.grid-con .item3 {
+  background-color: #fff;
+  color: #121212;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.grid-con .item4 {
+  background-color: #121212;
+  color: white;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.grid-con .item5 {
+  background-color: white;
+  color: #19212e;
+  padding: 3px;
+}
