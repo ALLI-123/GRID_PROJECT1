@@ -81,7 +81,9 @@ img {
 }
 
 .grid-con .item5 {
-  background-color: red;
+  background-color: #fff;
   color: #19212e;
   padding: 3px;
+  grid-column-start: 1;
+  grid-row-start: span 4
 }
